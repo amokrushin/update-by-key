@@ -29,16 +29,3 @@ function updateByKey( original, update, keyBy ) {
 }
 
 module.exports = updateByKey;
-
-var original =
-    [
-        {id: 'a', val: 1},
-        {id: 'b', val: 2},
-        {id: 'c', val: 3}
-    ]
-var update =
-    [
-        {id: 'a', val: 1},
-        {id: 'c', val: 4},
-        {id: 'd', val: 5}
-    ]
